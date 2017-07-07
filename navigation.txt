@@ -1,0 +1,23 @@
+aula 140 como exemplo
+
+!) criar evento onNavegate (ago assim) e crar um helper method 
+chamando um action creator passando this props
+
+2) criar um action dentro do navigation action
+
+3) importar o action const do /actions e colocar dentro do connect
+no bottom para que o component tenha acesso to the action creator as
+this.props.employeeCreate que ? como est? sendo usado dentro do
+onNavigate
+
+
+
+
+
+
+obs: All actions must return a function
+     quando voce passa uma propriedade para outro arquivo eu consigo acessar neste outro arquivo por this.props.employee (ex)
+
+https://hackernoon.com/getting-started-with-react-navigation-the-navigation-solution-for-react-native-ea3f4bd786a4
+https://github.com/react-community/react-navigation/issues/840
+
